@@ -125,4 +125,5 @@ def get_selected_attribute(tensor: torch.Tensor):
     # Select the attribute with the highest information gain
     selected_attribute = max(information_gains.keys(), key=lambda k: information_gains[k])
     
+
     return information_gains, selected_attribute
