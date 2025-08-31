@@ -1,0 +1,10 @@
+# Ignore path folder
+path/
+
+# Ignore virtual environment
+venv/
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
