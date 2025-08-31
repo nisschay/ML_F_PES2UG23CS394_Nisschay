@@ -19,6 +19,10 @@ ML-Lab/
 │   └── house_price_data.csv          # Dataset for regression task
 ├── ML_LAB3_Assignment/
 │   └── EC_F_PES2UG23CS394_Lab3.py    # Information Gain & Decision Tree implementation
+├── ML_LAB4_Assignment/
+│   ├── ML_LAB4.pdf                   # Week 4 lab instructions
+│   ├── ML_Lab4_1.ipynb               # Wine Quality Classification
+│   └── ML_Lab4_2.ipynb               # Banknote Authentication Classification
 └── (Upcoming assignments & projects)
 ```
 
@@ -58,6 +62,29 @@ ML-Lab/
   * *Mushrooms Dataset* – mushroom classification
   * *Nursery Dataset* – nursery school ranking
   * *Tic-Tac-Toe Dataset* – game outcome prediction
+
+### **Week 4**
+
+* **Topics Covered**:
+  * Classification algorithms implementation and comparison
+  * Manual vs Built-in classifier implementations
+  * Hyperparameter tuning techniques
+  * Model performance evaluation and analysis
+* **Algorithms Implemented**:
+  * **K-Nearest Neighbors (KNN)** - Both manual and built-in versions
+  * **Logistic Regression** - Both manual and built-in implementations
+  * **Decision Tree** - Both manual and built-in classifiers
+  * **Voting Classifier** - Ensemble method combining multiple algorithms
+* **Hyperparameter Optimization**:
+  * **GridSearchCV** - Automated hyperparameter search
+  * **Manual Search** - Custom hyperparameter tuning implementation
+* **Datasets**:
+  * *Wine Quality Dataset* – Multi-class classification of wine quality
+  * *Banknote Authentication Dataset* – Binary classification for fraud detection
+* **Performance Metrics**:
+  * Accuracy, Precision, Recall, F1-Score
+  * ROC-AUC for model comparison
+  * Comprehensive performance analysis tables
 
 ### **Future Work**
 
@@ -99,6 +126,16 @@ For the decision tree implementation:
 python ML_LAB3_Assignment/EC_F_PES2UG23CS394_Lab3.py
 ```
 
+### **5️⃣ Explore Week 4 assignments**
+
+Navigate to the ML_LAB4_Assignment folder and open the Jupyter notebooks:
+
+```bash
+cd ML_LAB4_Assignment
+jupyter notebook ML_Lab4_1.ipynb  # Wine Quality Analysis
+jupyter notebook ML_Lab4_2.ipynb  # Banknote Authentication
+```
+
 ---
 
 ## 🛠 Tech Stack
@@ -118,7 +155,8 @@ python ML_LAB3_Assignment/EC_F_PES2UG23CS394_Lab3.py
 | 1            | ✅ Completed | Introductory ML tasks                    |
 | 2            | ❌ Missed    | No assignment                           |
 | 3            | ✅ Completed | Information Gain & Decision Tree theory  |
-| 4+           | ⏳ Pending   | Will be uploaded as completed           |
+| 4            | ✅ Completed | Classification algorithms & hyperparameter tuning |
+| 5+           | ⏳ Pending   | Will be uploaded as completed           |
 | Mini-Project | ⏳ Pending   | Planned for later in the semester       |
 
 ---
@@ -134,6 +172,15 @@ python ML_LAB3_Assignment/EC_F_PES2UG23CS394_Lab3.py
 - Implementing entropy and information gain calculations
 - Attribute selection algorithms for decision trees
 - Working with PyTorch tensors for ML computations
+
+### Week 4
+- Manual implementation of core classification algorithms
+- Understanding the mathematics behind KNN, Logistic Regression, and Decision Trees
+- Comparison between manual and built-in implementations
+- Ensemble methods and voting classifiers
+- Hyperparameter optimization strategies (GridSearchCV vs Manual Search)
+- Comprehensive model evaluation using multiple metrics
+- Performance analysis across different datasets and problem types
 
 ---
 
