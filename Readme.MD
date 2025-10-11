@@ -26,6 +26,9 @@ ML-Lab/
 ├── ML_LAB6_Assignment/
 │   ├── ML_LAB_6.pdf                  # Week 6 lab report
 │   └── ML_LAB_6.ipynb                # Neural Networks implementation
+├── Ml_LAB7_Assignment/
+│   ├── PES2UG23CS394_F.ipynb.ipynb   # SVM kernels, margin experiments
+│   └── PES2UG23CS394_F_Report.pdf.docx # Week 7 report draft
 └── (Upcoming assignments & projects)
 ```
 
@@ -122,6 +125,24 @@ ML-Lab/
   * Hyperparameter exploration (learning rate, epochs, batch size)
   * Comparative results table with training/test losses and R² scores
 
+### **Week 7**
+
+* **Topics Covered**:
+
+  * Support Vector Machines (SVM) with linear, RBF, and polynomial kernels
+  * Comparative evaluation across synthetic and real-world datasets
+  * Margin control via hard (high `C`) and soft (low `C`) configurations
+  * Visual diagnostics of separating hyperplanes in two dimensions
+* **Datasets**:
+
+  * *Moons Dataset* – Non-linear synthetic classification for kernel comparison
+  * *Banknote Authentication* – Real-world binary classification using variance and skewness
+  * *Make Blobs (with noise)* – Linearly separable data to contrast hard vs soft margins
+* **Deliverables**:
+
+  * `PES2UG23CS394_F.ipynb.ipynb` – End-to-end SVM experiments, metrics, and plots
+  * `PES2UG23CS394_F_Report.pdf` – Draft write-up summarizing observations and takeaways
+
 ### **Future Work**
 
 * Additional weekly lab assignments
@@ -139,6 +160,7 @@ ML-Lab/
 | 4            | ✅ Completed | Classification algorithms & hyperparameter tuning         |
 | 5            | ❌ Missed    | No assignment                                             |
 | 6            | ✅ Completed | Neural Networks for Function Approximation (from scratch) |
+| 7            | ✅ Completed | SVM kernels, hard vs soft margin analysis                 |
 | Mini-Project | ⏳ Pending   | Planned for later in the semester                         |
 
 ---
