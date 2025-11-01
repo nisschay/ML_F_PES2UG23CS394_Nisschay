@@ -29,6 +29,11 @@ ML-Lab/
 ├── Ml_LAB7_Assignment/
 │   ├── PES2UG23CS394_F.ipynb.ipynb   # SVM kernels, margin experiments
 │   └── PES2UG23CS394_F_Report.pdf.docx # Week 7 report draft
+├── ML_LAB12_Assignment/
+│   ├── Naive_Bayes_Classifier_Boilerplate.ipynb # Naive Bayes implementation
+│   ├── Lab Report.pdf                # Week 12 lab report
+│   ├── Lab Instructions.pdf          # Week 12 lab instructions
+│   └── Dataset/                      # PubMed 20k RCT dataset
 └── (Upcoming assignments & projects)
 ```
 
@@ -143,6 +148,23 @@ ML-Lab/
   * `PES2UG23CS394_F.ipynb.ipynb` – End-to-end SVM experiments, metrics, and plots
   * `PES2UG23CS394_F_Report.pdf` – Draft write-up summarizing observations and takeaways
 
+### **Week 12**
+
+* **Topics Covered**:
+
+  * Naive Bayes classification from scratch
+  * Count/Frequency-based Multinomial Naive Bayes implementation
+  * Text classification using TF-IDF vectorization
+  * Hyperparameter tuning with GridSearchCV
+  * Comparison of custom vs. scikit-learn implementations
+* **Dataset**:
+
+  * *PubMed 20k RCT* – Medical abstract classification into categories (BACKGROUND, OBJECTIVE, METHODS, RESULTS, CONCLUSIONS)
+* **Deliverables**:
+
+  * `Naive_Bayes_Classifier_Boilerplate.ipynb` – Custom Naive Bayes implementation and scikit-learn pipeline
+  * `Lab Report.pdf` – Comprehensive analysis of model performance and comparisons
+
 ### **Future Work**
 
 * Additional weekly lab assignments
@@ -161,6 +183,7 @@ ML-Lab/
 | 5            | ❌ Missed    | No assignment                                             |
 | 6            | ✅ Completed | Neural Networks for Function Approximation (from scratch) |
 | 7            | ✅ Completed | SVM kernels, hard vs soft margin analysis                 |
+| 12           | ✅ Completed | Naive Bayes classifier from scratch, text classification  |
 | Mini-Project | ⏳ Pending   | Planned for later in the semester                         |
 
 ---
