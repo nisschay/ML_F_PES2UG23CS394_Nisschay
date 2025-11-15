@@ -34,6 +34,11 @@ ML-Lab/
 │   ├── Lab Report.pdf                # Week 12 lab report
 │   ├── Lab Instructions.pdf          # Week 12 lab instructions
 │   └── Dataset/                      # PubMed 20k RCT dataset
+├── ML_LAB13_Assignment/
+│   ├── PES2UG23CS394_F.ipynb         # K-means clustering implementation
+│   ├── PES2UG23CS394_F_Report.pdf    # Week 13 lab report
+│   ├── ML Lab Week 13 Clustering Lab Instructions.pdf # Lab instructions
+│   └── bank-full.csv                 # Bank marketing dataset
 └── (Upcoming assignments & projects)
 ```
 
@@ -165,6 +170,25 @@ ML-Lab/
   * `Naive_Bayes_Classifier_Boilerplate.ipynb` – Custom Naive Bayes implementation and scikit-learn pipeline
   * `Lab Report.pdf` – Comprehensive analysis of model performance and comparisons
 
+### **Week 13**
+
+* **Topics Covered**:
+
+  * K-means clustering algorithm from scratch
+  * Customer segmentation and market analysis
+  * Principal Component Analysis (PCA) for dimensionality reduction
+  * Elbow method for optimal cluster selection
+  * Agglomerative hierarchical clustering
+  * Dendrogram visualization for hierarchical clustering
+  * Clustering evaluation metrics (Silhouette Score, Inertia)
+* **Dataset**:
+
+  * *Bank Marketing Dataset* – Customer data for segmentation analysis (age, balance, job, education, etc.)
+* **Deliverables**:
+
+  * `PES2UG23CS394_F.ipynb` – K-means implementation from scratch, PCA, and hierarchical clustering
+  * `PES2UG23CS394_F_Report.pdf` – Analysis of customer segments and clustering evaluation
+
 ### **Future Work**
 
 * Additional weekly lab assignments
@@ -184,6 +208,7 @@ ML-Lab/
 | 6            | ✅ Completed | Neural Networks for Function Approximation (from scratch) |
 | 7            | ✅ Completed | SVM kernels, hard vs soft margin analysis                 |
 | 12           | ✅ Completed | Naive Bayes classifier from scratch, text classification  |
+| 13           | ✅ Completed | K-means clustering from scratch, customer segmentation    |
 | Mini-Project | ⏳ Pending   | Planned for later in the semester                         |
 
 ---
