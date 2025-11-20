@@ -39,6 +39,10 @@ ML-Lab/
 │   ├── PES2UG23CS394_F_Report.pdf    # Week 13 lab report
 │   ├── ML Lab Week 13 Clustering Lab Instructions.pdf # Lab instructions
 │   └── bank-full.csv                 # Bank marketing dataset
+├── ML_LAB14_Assignment/
+│   ├── PES2UG23CS394_LAB14.ipynb     # CNN for image classification
+│   ├── PES2UG23CS394_LAB14.pdf       # Week 14 lab report
+│   └── Week_14_Lab_Instructions.pdf  # Lab instructions
 └── (Upcoming assignments & projects)
 ```
 
@@ -189,6 +193,25 @@ ML-Lab/
   * `PES2UG23CS394_F.ipynb` – K-means implementation from scratch, PCA, and hierarchical clustering
   * `PES2UG23CS394_F_Report.pdf` – Analysis of customer segments and clustering evaluation
 
+### **Week 14**
+
+* **Topics Covered**:
+
+  * Convolutional Neural Networks (CNN) architecture
+  * Image classification using deep learning
+  * PyTorch implementation of CNNs
+  * Convolutional layers, pooling layers, and fully connected layers
+  * Data augmentation and image preprocessing
+  * Model training with GPU acceleration
+  * Performance evaluation on image datasets
+* **Dataset**:
+
+  * *Rock Paper Scissors Dataset* – Hand gesture images for multi-class classification (rock, paper, scissors)
+* **Deliverables**:
+
+  * `PES2UG23CS394_LAB14.ipynb` – Complete CNN implementation using PyTorch for image classification
+  * `PES2UG23CS394_LAB14.pdf` – Lab report with model architecture, training results, and analysis
+
 ### **Future Work**
 
 * Additional weekly lab assignments
@@ -209,6 +232,7 @@ ML-Lab/
 | 7            | ✅ Completed | SVM kernels, hard vs soft margin analysis                 |
 | 12           | ✅ Completed | Naive Bayes classifier from scratch, text classification  |
 | 13           | ✅ Completed | K-means clustering from scratch, customer segmentation    |
+| 14           | ✅ Completed | CNN image classification with PyTorch                     |
 | Mini-Project | ⏳ Pending   | Planned for later in the semester                         |
 
 ---
